@@ -5,7 +5,7 @@ require 'open-uri'
 def scraper
   @reading_list = []
   url = "https://news.ycombinator.com"
-  url_list = 1.times.with_object([]) do |n, array|
+  url_list = 4.times.with_object([]) do |n, array|
     array << "#{url}/news?p=#{n + 1}"
   end
 
