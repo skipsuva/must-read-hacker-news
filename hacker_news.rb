@@ -3,7 +3,6 @@ require 'open-uri'
 
 class Scraper
   def initialize
-    #list methods?
     url_parser
     page_scraper
     calculator
